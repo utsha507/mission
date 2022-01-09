@@ -7,6 +7,11 @@ h1{
 .orange-color{
     color: orange;
 }
+.border-left{
+    border-left: red;
+    border-left-style: solid;
+    padding-left: 2%;
+}
 section{
     display: flex;
 }
@@ -14,8 +19,8 @@ section{
     width: 50%;
     padding-left: 5%;
 }
-.half-width image{
-    width: 10%;
+.half-width img{
+    width: 60%;
 }
 .link-button{
     text-decoration: none;
@@ -25,4 +30,76 @@ section{
     font-weight: 700;
     border-radius: 5px;
     
+}
+.mymission{
+    overflow: hidden;
+    margin: none;
+    padding: none;
+    margin-left: 200px;
+}
+.year{
+    color: orange;
+}
+.headline{
+    text-align: center;
+}
+
+.left{
+width: 25%;
+background-color: rgb(218, 230, 236);
+float: left;
+border-radius: 5%;
+padding-bottom: 74px;
+padding-left: 10px;
+margin: 15px;
+}
+.left img{
+    width: 5opx;
+    height: 160px;
+}
+.left p{
+text-align: left;
+margin: 2px;
+}
+.middle{
+width: 25%;
+background-color: #f1c1df;
+float: left;
+border-radius: 5%;
+padding-bottom: 53px;
+padding-left: 10px;
+margin: 15px;
+}
+.middle img{
+    width: 160px;
+    height: 160px;
+}
+.middle p{
+text-align: left;
+margin: 2px;
+}
+.right{
+width: 25%;
+background-color: #f7b58a;
+float: left;
+border-radius: 5%;
+padding-bottom: 30px;
+padding-left: 10px;
+margin: 15px;
+}
+.right img{
+    width: 160px;
+    height: 160px;
+}
+.right p{
+text-align: left;
+margin: 2px;
+}
+.link-button1{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(12, 206, 99),rgb(94, 112, 216));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
 }
